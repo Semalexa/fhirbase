@@ -139,7 +139,7 @@ For more information
 
 ## Installation
 
-Prefered way is docker - https://docker.com.
+Docker is a preferred way - https://docker.com.
 
 Install docker.
 
@@ -153,6 +153,8 @@ sudo docker.io run -d --name=fhirbase -t -p 5433:5432 fhirbase/fhirbase:latest
 ```
 
 ### Mac os x & windows
+
+https://www.vagrantup.com/downloads.html
 
 ```bash
 vagrant up
